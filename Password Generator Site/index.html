@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="generator">
+            <div class="dots">
+                <ul class="dots-wrapper">
+                    <div id="dot1" class="browser-dot"></div>
+                    <div id="dot2" class="browser-dot"></div>
+                    <div id="dot3" class="browser-dot"></div>
+                </ul>
+            </div>
+            <h1>Password generator</h1>
+            <h1 id="password">&nbsp;</h1>
+            <form method="get">
+                <input type="range" id="strength" name="strength" min="0" max="2">
+            </form>
+            <h2>Weak Medium Strong</h2>
+            <button id="gbutton">GENERATE</button>
+            <button id="cbutton">COPY</button>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/padi48" target="_blank">Made by Pados Máté <i class="fa fa-github fa-spin" aria-hidden="true"></i></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
